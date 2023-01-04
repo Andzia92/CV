@@ -41,6 +41,7 @@ header {
 header section {
   margin: 0 auto;
   max-width: 640px;
+  max-height: 200px;
 }
 
 header img {
@@ -62,7 +63,7 @@ h3, h4 {
 }
 
 main {
-  max-width: 1140px;
+  max-width: 900px;
 }
 
 main section:not(:last-child) {
@@ -79,7 +80,20 @@ main section:not(:last-child) {
   margin: 5px;
   text-align: center;
 }
+.fa {
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 1.5em;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: 5px;
+  text-align: center;
+}
 
+a .fa {
+  color: rgb(0, 0, 0);
+}
 a .fab {
   color: rgb(0, 0, 0);
 }
