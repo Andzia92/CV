@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: 'Raleway';
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.8em;
 }
 
@@ -21,8 +21,8 @@ article {
 }
 
 section{
-  margin: 1em;
-  padding: 1em;
+  margin: 10px;
+  padding: 10px;
 }
 
 header, main, footer {
@@ -30,7 +30,7 @@ header, main, footer {
 }
 
 header {
-  padding: 2em;
+  padding: 10px;
   text-align: center;
   background-image: url('./img/bg.jpg');
   background-size: cover;
@@ -41,7 +41,7 @@ header {
 header section {
   margin: 0 auto;
   max-width: 640px;
-  max-height: 200px;
+  max-height: 110px;
 }
 
 header img {
@@ -50,8 +50,8 @@ header img {
 }
 
 h1 {
-  text-transform: uppercase;
-  margin: 1em 0;
+  text-transform:uppercase;
+  
 }
 
 h3 {
@@ -103,6 +103,7 @@ a .fab {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+ 
 }
 
 .course .title {
@@ -123,7 +124,7 @@ a .fab {
 }
 
 .skills .column {
-  -ms-flex: 0 0 50%%;
+  -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 50%;
 }
@@ -134,12 +135,12 @@ a .fab {
 
 .skills .column ul > li:before {
   content: "►";
-  padding-right: 0.5em;
+  padding-right: 0.3em;
   color: #509e98;
 }
 
 .school, .job-title {
-  text-transform: capitalize;
+  text-transform:none;
 }
 
 .school span, .job-title span {
@@ -159,7 +160,7 @@ footer {
  color: white;
  text-align: center;
  font-size: x-small;
- line-height: 12px;
+ line-height: 10px;
  
 }
 
