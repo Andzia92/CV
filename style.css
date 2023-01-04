@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    margin: 0;
+  }
+  
+  article {
+    padding:0 1em;
+  }
+  
+  section{
+    margin: 1em;
+    padding: 1em;
+  }
+  
+  header, main, footer {
+    margin: 0 auto;
+  }
+  
+  header {
+    padding: 2em;
+    text-align: center;
+    color: aliceblue;
+    background-size: cover;
+    background-image: url("http://www.cvhldgs.com/wp-content/uploads/2017/03/bg.jpg");
+    background-position: center;
+    text-transform: capitalize;
+  }
+  
+  header section {
+    margin: 0 auto;
+    max-width: 640x;
+    max-height: 640px;
+  }
+  
+  header img {
+    vertical-align: middle;
+  width: 150px;
+  height: 160px;
+  border-radius: 50%;
+  }
+  
+  h1 {
+    margin: 1em 0;
+  }
+  
+  main {
+    max-width: 1140px;
+  }
+  
+  .course {
+  }
+  
+  .course .title {
+  }
+  
+  .course .descrition {
+  }
+  
+  .school span {
+    color: #A7B8BF;
+  }
+  
+  footer {
+   padding: 1em;
+  }
