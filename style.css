@@ -20,10 +20,10 @@ body {
   header {
     padding: 2em;
     text-align: center;
-    color: aliceblue;
+    color: rgb(8, 8, 8);
     background-size: cover;
-    background-image: url("http://www.cvhldgs.com/wp-content/uploads/2017/03/bg.jpg");
-    background-position: center;
+    background-image: url("https://raw.githubusercontent.com/Andzia92/CV/master/img/bg.jpg");
+    background-position: fixed;
     text-transform: capitalize;
   }
   
@@ -43,20 +43,69 @@ body {
   h1 {
     margin: 1em 0;
   }
+  h3 {
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin: 1em 0;
+  }
+  
   
   main {
     max-width: 1140px;
   }
   
   .course {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   
   .course .title {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #0a85aa;
+    -ms-flex: 0 0 33.3%;
+    flex: 0 0 33.3%;
+    max-width: 33%
   }
+  .course .subtitle {
+    font-weight: 300;
+    font-size: small;
+    color: #A7B8BF;
+    -ms-flex: 0 0 33.3%;
+    flex: 0 0 33.3%;
+    max-width: 33%
+    
+  }
+
   
   .course .descrition {
+    -ms-flex: 0 0 66.6%;
+    flex: 0 0 66.6%;
+    max-width: 66.6%
   }
   
+  .course .descrition p {
+    padding-left: 1em;
+  }
+  .skills {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  
+  .skills .column {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  ul {
+    list-style-type: none;
+   }
+ 
   .school span {
     color: #A7B8BF;
   }
